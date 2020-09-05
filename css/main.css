@@ -4,6 +4,22 @@ html{
 body{
     perspective: 1500px;
 }
+span, p{
+    font-family: "궁서";
+}
+.hiding{
+    display: none;
+}
+.snoopi{
+    border:1px solid black;
+}
+.Showing{
+    display: block;
+}
+.imgg{
+    transform:translateY(80);
+    transition: 3s;
+}
 .leaflet{
     position: absolute;
     left: 0;

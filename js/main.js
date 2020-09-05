@@ -20,3 +20,17 @@
         }
     });
 })();
+
+
+const img = document.querySelector(".imgg");
+const gg = document.querySelector(".snoopi");
+
+const currentShow = "Showing";
+
+function init(){
+    gg.addEventListener('click',e=>{
+        img.classList.remove("hiding");
+        img.classList.add(currentShow);
+    })
+}
+init();
