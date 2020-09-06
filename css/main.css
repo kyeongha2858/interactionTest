@@ -154,6 +154,6 @@ body {
     text-shadow: rgba(0,0,0,0.3) 0 1px 0;
     backface-visibility: hidden;
 }
-.leaflet-opend .close-btn{
+.leaflet-opened .close-btn{
     display: inline-block;
 }
